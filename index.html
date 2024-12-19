@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Linux Web Emulator</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="centerBox">
+            <h1>Linux Web Emulator</h1>
+            <div id="displayContainer">
+                <div>
+                    <div class="label">Linux Output</div>
+                    <div id="screen_container">
+                        <div id="linuxOutput" class="builderlog"></div>
+                        <canvas style="display: none;"></canvas>
+                    </div></div>
+           </div>
+       </div>
+       <div class="builderfooter">Powered by <a href="https://github.com/copy/v86">v86</a></div>
+       <script src="assets/hterm_all.min.js"></script>
+       <script src="assets/libv86.js"></script>
+       <script src="assets/webbuilder.js"></script>
+   </body>
+</html>

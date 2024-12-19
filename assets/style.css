@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: #1e1e1e;
+    color: #ebebeb;
+}
+
+a {
+    color: #3ec3f0;
+}
+
+#displayContainer {
+    display: block;
+    margin: 20px auto;
+    width: max-content;
+}
+
+.builderlog {
+    font-family: monospace;
+    color: white;
+    background-color: black;
+    width: 40vw;
+    height: 20vw;
+    font-size: 13px;
+    overflow: hidden;
+    position: relative;
+    white-space: pre;
+}
+
+#linuxOutput {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.builderfooter {
+    margin-top: 50px;
+    text
+}
+.centerBox {
+   margin: auto;
+   width: max-content;
+   max-width: calc(100vw - 16px);
+}
+.centerBox h1 {
+   text-align: center;
+}
